@@ -3,8 +3,7 @@
     "version": "0.0.0",
     "private": true,
     "workspaces": [
-        "apps/*",
-        "packages/*"
+        "apps/*"
     ],
     "scripts": {
         "build": "turbo run build",
@@ -18,9 +17,10 @@
     "devDependencies": {
         "commitizen": "^4.2.5",
         "cz-infojr": "^1.0.0",
+        "eslint": "^8.29.0",
+        "eslint-config-infojr-ts": "^3.0.0",
         "husky": "^8.0.2",
         "lint-staged": "^13.1.0",
-        "eslint-config-infojr": "workspace:*",
         "prettier": "latest",
         "turbo": "latest"
     },
