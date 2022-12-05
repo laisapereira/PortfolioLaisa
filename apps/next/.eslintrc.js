@@ -2,9 +2,8 @@ module.exports = {
   root: true,
   extends: ["infojr/next"],
   ignorePatterns: ["node_modules", "dist", "**/*.js"],
-  settings: {
-    next: {
-      rootDir: ["apps/*/"],
-    },
+  parserOptions: {
+    project: "tsconfig.json",
+    tsconfigRootDir: __dirname,
   },
 };
