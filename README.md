@@ -1,73 +1,61 @@
-# Turborepo starter
+# Núcleo de Front-end
 
-This is an official pnpm starter turborepo.
+Olá, pessoa! Seja bem vindo ao Núcleo de Front-end!
+Este repositório será usado para ver e fazer as atividades do núcleo durante este ciclo. Você precisará clonar este repositório no seu computador.
 
-## What's inside?
+## Instruções de envio de atividades
 
-This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
+Crie uma branch a partir da `main` com o seu nome, usando _kebab-case_, para fazer cada atividade (por exemplo: `fulano-beltrano`).
+Para cada atividade, você deverá desenvolver o código inteiramente na pasta do respectivo projeto. Novas atividades serão enviadas como _issues_ para cada projeto, então fique atento(a) ao Gitlab para ver se não tem nenhuma atividade pendente.
 
-### Apps and Packages
+O projeto utiliza o [**pnpm**](https://pnpm.io/) como gerenciador de pacotes.
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+O projeto utiliza um setup de monorepo para dividir dependências entre os projetos, então evite instalar dependências na pasta raiz. Se quiser instalar alguma dependência, veja o exemplo abaixo.
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+Os projetos que serão utilizados nas atividades estão na pasta **apps**.
 
-### Utilities
+Para instalar as dependências de ambos os projetos, basta rodar o comando `pnpm install` na pasta raiz do projeto. Para instalar dependências apenas em um dos projetos, basta entrar na pasta do projeto específico e rodar o comando `pnpm add sua-dependencia-aqui`. Por exemplo:
 
-This turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm run build
+```bash
+cd apps/form
+pnpm add tailwindcss
 ```
 
-### Develop
+Para manter os padrões de commit, este repo utiliza o commitlint e commitzen, então para commitar, basta rodar o comando `pnpm run commit` na pasta raiz do repo ou na pasta de um dos projetos. Por exemplo:
 
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm run dev
+```bash
+pnpm run commit
 ```
 
-### Remote Caching
+ou
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-pnpm dlx turbo login
+```bash
+cd apps/form
+pnpm run commit
 ```
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+Seus commits deverão ser contínuos e explicativos, então nada de fazer a atividade inteira em um só commit com a mensagem _"atividade do nucleo ae"_, beleza? Os orientadores precisam acompanhar o progresso dos membros, e isso será feito através dos seus commits no GitLab.
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
+Para entregar uma atividade, basta abrir um _merge request_ no Gitlab e sua atividade será avaliada.
 
-```
-pnpm dlx turbo link
-```
+Além disso, as atividade podem conter desafios opcionais a serem completados, que contaram também na avaliação caso sejam concluídos.
 
-## Useful Links
+## Observações importantes
 
-Learn more about the power of Turborepo:
+Lembre-se que o núcleo é o seu treinamento para começar a trabalhar nos projetos da InfoJr. Portanto, tenha em mente que a sua postura aqui deverá ser adequada para os nossos projetos. Sendo assim, não será tolerado:
 
-- [Pipelines](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+### Falta de compromisso com os prazos
+
+Isso inclui também começar a fazer a atividade em cima da hora, pois isso impede que você tenha tempo hábil para lidar com imprevistos, acarretando em atrasos que seriam facilmente evitáveis se houvesse maior antecedência na hora de fazer a atividade.
+
+### Entregas incompletas ou mal feitas
+
+Não se restrinja a apenas o mínimo necessário para a atividade, dê o seu melhor e tente fazer algo que você teria orgulho de mostrar para as pessoas como prova do seu progresso.
+
+### Ausência de comunicação com os orientadores
+
+-   Está com dificuldade? Peça ajuda.
+-   Não vai conseguir entregar no prazo? Justifique com antecedência.
+-   Algo te incomoda no núcleo? Dê o seu feedback.
+
+Comunicação é essencial em todas as áreas da vida, os núcleos de estudo não são exceção.
