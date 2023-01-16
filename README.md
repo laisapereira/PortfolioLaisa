@@ -5,8 +5,9 @@ Este repositório será usado para ver e fazer as atividades do núcleo durante 
 
 ## Instruções de envio de atividades
 
-Crie uma branch a partir da `main` com o seu nome, usando _kebab-case_, para fazer cada atividade (por exemplo: `fulano-beltrano`).
-Para cada atividade, você deverá desenvolver o código inteiramente na pasta do respectivo projeto. Novas atividades serão enviadas como _issues_ para cada projeto, então fique atento(a) ao Gitlab para ver se não tem nenhuma atividade pendente.
+Crie uma branch a partir da `main` seguindo o padrão `[número da turma]-[nome do indivíduo]` para servir como repositório de suas atividades (por exemplo: a branch sob nome 1-José irá reunir todas as atividade de José feitas no núcleo).
+
+Novas atividades serão enviadas como _issues_ para cada projeto, então fique atento(a) ao Gitlab para ver se não tem nenhuma atividade pendente.
 
 O projeto utiliza o [**pnpm**](https://pnpm.io/) como gerenciador de pacotes.
 
