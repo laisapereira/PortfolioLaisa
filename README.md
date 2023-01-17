@@ -22,17 +22,17 @@ cd apps/form
 pnpm add tailwindcss
 ```
 
-Para manter os padrões de commit, este repo utiliza o commitlint e commitzen, então para commitar, basta rodar o comando `pnpm run commit` na pasta raiz do repo ou na pasta de um dos projetos. Por exemplo:
+Para manter os padrões de commit, este repo utiliza o commitlint e commitzen, então para commitar, basta rodar o comando `pnpm commit` na pasta raiz do repo ou `pnpm -w commit` na pasta de um dos projetos. Por exemplo:
 
 ```bash
-pnpm run commit
+pnpm commit
 ```
 
 ou
 
 ```bash
 cd apps/form
-pnpm run commit
+pnpm -w commit
 ```
 
 Seus commits deverão ser contínuos e explicativos, então nada de fazer a atividade inteira em um só commit com a mensagem _"atividade do nucleo ae"_, beleza? Os orientadores precisam acompanhar o progresso dos membros, e isso será feito através dos seus commits no GitLab.
