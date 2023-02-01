@@ -7,6 +7,10 @@ module.exports = {
         tsconfigRootDir: __dirname,
     },
     rules: {
-        ' @next/next/no-head-element': 'off',
+        '@next/next/no-head-element': 'off',
+        'jsx-a11y/label-has-associated-control': [
+            'error',
+            { assert: 'either' },
+        ],
     },
 }

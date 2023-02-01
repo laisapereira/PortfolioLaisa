@@ -6,4 +6,10 @@ module.exports = {
         project: 'tsconfig.json',
         tsconfigRootDir: __dirname,
     },
+    rules: {
+        'jsx-a11y/label-has-associated-control': [
+            'error',
+            { assert: 'either' },
+        ],
+    },
 }
