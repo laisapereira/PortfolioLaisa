@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Núcleo de Front-end
 
 Olá, pessoa! Seja bem vindo ao Núcleo de Front-end!
@@ -60,3 +61,6 @@ Não se restrinja a apenas o mínimo necessário para a atividade, dê o seu mel
 -   Algo te incomoda no núcleo? Dê o seu feedback.
 
 Comunicação é essencial em todas as áreas da vida, os núcleos de estudo não são exceção.
+=======
+# PortfolioLaisa
+>>>>>>> e70e88dc0e6acafacda46ed2a30f88c90ca6ccec
